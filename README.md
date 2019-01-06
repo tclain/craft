@@ -19,7 +19,7 @@ dependencies:
 ```ruby
 require "craft"
 
-cluster = Craft::Cluster.new(current: Node.new 'addr1', peers: [Node.new 'addr2', Node.new 'addr3'])
+cluster = Craft::Cluster.new(current: Craft::Node.new 'addr1', peers: [Craft::Node.new 'addr2', Craft::Node.new 'addr3'])
 
 if cluster.current.leader?
   cluster.propagate_state "hello"
