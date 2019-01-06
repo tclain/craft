@@ -10,7 +10,7 @@ Why ? Because I want to learn crystal and love distributed systems
 ```yaml
 dependencies:
   craft:
-    github: rclain/craft
+    github: tclain/craft
 ```
 2. Run `shards install`
 

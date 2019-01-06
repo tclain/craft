@@ -2,7 +2,7 @@ require "./node"
 require "./rpc"
 
 class Cluster
-    def initialize (selfNode : Node, otherNodes : Array(Node))
+    def initialize (otherNodes : Array(Node))
         @rpc = Rpc
     end
 

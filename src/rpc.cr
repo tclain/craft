@@ -10,4 +10,6 @@ class Rpc
     end
     def send(nodes : Array(Node))
     end
+
+    
 end
